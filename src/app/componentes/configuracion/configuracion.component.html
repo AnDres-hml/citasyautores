@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Configuración</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label>¿Desea poder borrar citas en el inicio?</ion-label>
+    <ion-toggle [(ngModel)]="allowDeleteQuotes" (ionChange)="onToggleChange()"></ion-toggle>
+  </ion-item>
+</ion-content>
+
+
